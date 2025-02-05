@@ -1,0 +1,14 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "This is my second Project/App.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aryan Tanwar",
+  "license": "ISC",
+  "dependencies": {
+    "figlet": "^1.8.0"
+  }
+}
