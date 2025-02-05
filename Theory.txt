@@ -25,3 +25,8 @@ Now, What are Packages - Package is a type of code that anyone can use.
 1). node_modules = the node_modules folder contains every installed dependency for your project. 
 2). package-lock.json = It records the exact version of every installed dependency, including its sub-dependency and its version.
 3). (**Most Important package) package.json = The package.json file contains the descriptive and functional metadata about a project, such as a name, version and its dependencies.
+
+-> require v/s import - Ex: import {sum} from "./math.js"
+We can't selectively load only the pieces we need with require but we import, we can selectively load only the pieces we need, which can save memory. 
+
+Loading is synchronous for 'require', and asynchronous for 'import'. 
