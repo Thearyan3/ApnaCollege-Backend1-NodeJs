@@ -1,3 +1,3 @@
-const math = require("./math");
+const info = require("./fruits");
 
-console.log(math.PI);
+console.log(info[0].color);
