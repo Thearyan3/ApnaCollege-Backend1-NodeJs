@@ -1,0 +1,16 @@
+-> Node.js - JavaScript Run Time Environment. It is used for server side programming. 
+-> Run Time Environment - means that for a long period of time, we could use JavaScript only inside our browsers (only for frontend) because browsers have interpreters that allow JavaScript to run inside it, ultimately languages like python were used to build Backend. But then, in 2009, Node.js was released and started using to build Backend. It gained the popularity after its release.
+-> Advantages - It is most popular Environment till now.
+                It is based on JavaScript only and we don't have to learn any other language to build Backend.
+
+** Node.js is not a language, library or framework. 
+
+-> Process - This object provides information about, and control over, the current Node.js process. 
+-> Process.argv - returns an array containing the command-line arguments passed when the Node.js process was launched. 
+
+
+--> ** module.exports is a special Object which contains all the necessary information that is required by all the other files of the same directory/folder. 
+We can export any information through module.exports to any other file of the same directory, if there is no information send through the module.exports then it will send an empty object in the Node Environment/ terminal.
+
+--> ** require() is a built-in function to include external modules that exist in a seperate files. Means, we can include functions or code of other files in our file with the help of require().
+for Ex: const import = require("./math");
