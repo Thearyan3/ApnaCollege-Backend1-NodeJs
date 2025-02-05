@@ -20,3 +20,8 @@ for Ex: const import = require("./math");
 Now, What are Packages - Package is a type of code that anyone can use.
 
 2). It is a command line tool through which we can install and use those packages. 
+
+-> Installing Packages - 
+1). node_modules = the node_modules folder contains every installed dependency for your project. 
+2). package-lock.json = It records the exact version of every installed dependency, including its sub-dependency and its version.
+3). (**Most Important package) package.json = The package.json file contains the descriptive and functional metadata about a project, such as a name, version and its dependencies.
