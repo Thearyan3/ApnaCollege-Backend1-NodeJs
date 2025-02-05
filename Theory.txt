@@ -14,3 +14,9 @@ We can export any information through module.exports to any other file of the sa
 
 --> ** require() is a built-in function to include external modules that exist in a seperate files. Means, we can include functions or code of other files in our file with the help of require().
 for Ex: const import = require("./math");
+
+-> npm(Node Package Manager) - npm is the standard Package Manager for Node.js.
+1). We can imagine npm as a library of Packages. 
+Now, What are Packages - Package is a type of code that anyone can use.
+
+2). It is a command line tool through which we can install and use those packages. 
